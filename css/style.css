@@ -1313,3 +1313,68 @@ font-size:14px;
     border-radius: 15px;
     border: 1px solid #ddd;
 }
+
+/* =========================
+   Deployment
+========================= */
+
+.deployment-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin-top: 35px;
+    padding: 35px;
+
+    background: #fff;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+}
+
+.deployment-step {
+    min-width: 150px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    background: #fafafa;
+}
+
+.deployment-step strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 17px;
+}
+
+.deployment-step span {
+    font-size: 13px;
+
+    color: #888;
+}
+
+.deployment-arrow {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .deployment-flow {
+        flex-direction: column;
+    }
+
+    .deployment-arrow {
+        transform: rotate(90deg);
+    }
+
+}

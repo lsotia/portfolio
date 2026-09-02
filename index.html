@@ -442,6 +442,14 @@
                 Controller → Service → Repository → Database로
                 이어지는 데이터 흐름을 직접 구현하면서
                 각 계층의 역할을 이해하는 것을 목표로 했습니다.
+               
+                <br><br>
+
+                Railway를 활용한 실제 배포 경험을 통해
+                로컬 환경에서 개발한 Spring Boot 애플리케이션을
+                서버 환경에 적용하는 과정까지 경험했습니다.
+
+
 
             </p>
 
@@ -662,14 +670,6 @@
                 <a href="#layer-detail">
 
                     Project Details
-
-                </a>
-
-
-                <a href="https://www.youtube.com/watch?v=DYN9tMN_lis"
-                   target="_blank">
-
-                    ▶ Demo Video
 
                 </a>
 
@@ -1765,15 +1765,92 @@ List&lt;String&gt; findDistinctBrands();</code></pre>
 
     </div>
 
+<!-- =========================
+     09 Deployment
+========================= -->
 
+<div class="detail-section">
+
+    <span class="detail-number">
+        09
+    </span>
+
+    <h3>
+        Deployment
+    </h3>
+
+    <p>
+
+        프로젝트를 완성한 뒤
+        Railway를 활용하여
+        Spring Boot 애플리케이션을
+        실제 서버 환경에 배포했습니다.
+
+        <br><br>
+
+        로컬 개발 환경에서 실행하던 애플리케이션을
+        외부 서버 환경으로 옮기면서
+        애플리케이션 설정,
+        데이터베이스 연결,
+        배포 환경에서의 실행 과정을
+        직접 경험했습니다.
+
+        <br><br>
+
+        또한 GitHub에 저장된 프로젝트를 기반으로
+        배포 환경을 구성하면서
+        코드 작성뿐만 아니라
+        실제 서비스 환경에 애플리케이션을
+        배포하는 과정까지 경험했습니다.
+
+    </p>
+
+
+    <div class="deployment-flow">
+
+        <div class="deployment-step">
+            <strong>GitHub</strong>
+            <span>Source Code</span>
+        </div>
+
+        <div class="deployment-arrow">
+            →
+        </div>
+
+        <div class="deployment-step">
+            <strong>Railway</strong>
+            <span>Application Deploy</span>
+        </div>
+
+        <div class="deployment-arrow">
+            →
+        </div>
+
+        <div class="deployment-step">
+            <strong>Spring Boot</strong>
+            <span>Web Application</span>
+        </div>
+
+        <div class="deployment-arrow">
+            →
+        </div>
+
+        <div class="deployment-step">
+            <strong>MySQL</strong>
+            <span>Database</span>
+        </div>
+
+    </div>
+
+</div>
     <!-- =========================
-         09 Demo
+         10 Demo
     ========================= -->
 
     <div class="detail-section demo-section">
 
         <span class="detail-number">
-            09
+            10
         </span>
 
         <h3>
